@@ -1,0 +1,12 @@
+[01-Sep-2018 08:34:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/shastho/public_html/admin/dbClass.php:124
+Stack trace:
+#0 /home/shastho/public_html/admin/dbClass.php(206): dbClass->getResultList('select group_id...')
+#1 /home/shastho/public_html/admin/view/user/user.php(10): dbClass->getUserGroupPermission(15)
+#2 {main}
+  thrown in /home/shastho/public_html/admin/dbClass.php on line 124
+[01-Sep-2018 08:48:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/shastho/public_html/admin/dbClass.php:124
+Stack trace:
+#0 /home/shastho/public_html/admin/dbClass.php(206): dbClass->getResultList('select group_id...')
+#1 /home/shastho/public_html/admin/view/user/user.php(10): dbClass->getUserGroupPermission(15)
+#2 {main}
+  thrown in /home/shastho/public_html/admin/dbClass.php on line 124

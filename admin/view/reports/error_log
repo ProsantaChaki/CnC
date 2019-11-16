@@ -1,0 +1,12 @@
+[01-Sep-2018 08:54:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/shastho/public_html/admin/dbClass.php:124
+Stack trace:
+#0 /home/shastho/public_html/admin/dbClass.php(206): dbClass->getResultList('select group_id...')
+#1 /home/shastho/public_html/admin/view/reports/helthCardService.php(16): dbClass->getUserGroupPermission(71)
+#2 {main}
+  thrown in /home/shastho/public_html/admin/dbClass.php on line 124
+[01-Sep-2018 08:54:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/shastho/public_html/admin/dbClass.php:117
+Stack trace:
+#0 /home/shastho/public_html/admin/dbClass.php(287): dbClass->getSingleRow('select ifnull(h...')
+#1 /home/shastho/public_html/admin/view/reports/myHealthKitService.php(18): dbClass->get_health_card_no(1, '1000003')
+#2 {main}
+  thrown in /home/shastho/public_html/admin/dbClass.php on line 117
