@@ -60,7 +60,7 @@ Examples:
 
 ATTENTION: The trailing slash is required.
 */
-$baseUrl = 'http://localhost/web_project/admin/theme/ckeditor-ckfinder-integration-master/uploads/';
+$baseUrl = 'http://restaurent.test/web_project/admin/theme/ckeditor-ckfinder-integration-master/uploads/';
 $enabled = true;
 /*
 $baseDir : the path to the local directory (in the server) which points to the

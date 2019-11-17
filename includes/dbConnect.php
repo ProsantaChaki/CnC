@@ -1,7 +1,7 @@
 <?php 
-	$servername = "localhost";
+	$servername = "localhost.test";
 	$username = "root";
-	$password = "";
+	$password = "kajol1234";
 	$dbname = "cakencookies";
 	try {
 		$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

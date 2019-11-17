@@ -1,9 +1,9 @@
 <?php
 
 // Database configuration
-$host = "localhost";
+$host = "localhost.test";
 $username = "root";
-$password = "";
+$password = "kajol1234";
 $database_name = "cakencookies";
 
 // Get connection object and set the charset
