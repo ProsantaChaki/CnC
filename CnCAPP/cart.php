@@ -18,7 +18,7 @@
                 <!-- End Breadcrumb Part -->
                 <section class="home-icon shop-cart bg-skeen">
                     <div class="icon-default icon-skeen">
-                        <img src="images/scroll-arrow.png" alt="">
+                        <img src="/images/scroll-arrow.png" alt="">
                     </div>
                     <div class="container" id="product_container">
 					    <div class="checkout-wrap wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">

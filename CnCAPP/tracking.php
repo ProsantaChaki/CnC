@@ -22,7 +22,7 @@ if(isset($_GET['order_id']) && $_GET['order_id']!="") $order_id =  $_GET['order_
 		<div class="track-oder wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 			<div class="track-oder-inner">
 				<div class="clock-track-icon">
-					<img src="images/clock-icon.png" alt="">
+					<img src="/images/clock-icon.png" alt="">
 				</div>
 				<div class="track-status">
 					<h3><b id="order_status_message"></b></h3>

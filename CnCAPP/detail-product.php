@@ -18,7 +18,7 @@
             <div class="main-part">
                 <section class="home-icon shop-single pad-bottom-remove">
                     <div class="icon-default">
-                        <img src="images/scroll-arrow.png" alt="">
+                        <img src="/images/scroll-arrow.png" alt="">
                     </div>
                     <div class="container">
                         <div class="row">

@@ -443,7 +443,7 @@ case "insert_or_update":
 						if(rename($file_tmp,$new_dir))
 							$photo =time()."$file_name";				
 					}
-					$photo  = "images/customer/".$photo;					
+					$photo  = "/images/customer/".$photo;
 				}
 				else {
 					echo "Image size is too large!";die;

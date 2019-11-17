@@ -33,14 +33,14 @@ switch ($q){
 						if(rename($file_tmp,$new_dir))
 							$photo =time()."$file_name";				
 					}
-					$photo  = "images/customer/".$photo;					
+					$photo  = "/images/customer/".$photo;
 				}
 				else {
 					echo $img_error_ln;die;
 				}			
 			}
 			else{
-				$photo  = "images/no_image.png";	
+				$photo  = "/images/no_image.png";
 			}
 			
 			$is_active=0;
@@ -101,7 +101,7 @@ switch ($q){
 						if(rename($file_tmp,$new_dir))
 							$photo =time()."$file_name";				
 					}
-					$photo  = "images/customer/".$photo;					
+					$photo  = "/images/customer/".$photo;
 				}
 				else {
 					echo $img_error_ln;die;

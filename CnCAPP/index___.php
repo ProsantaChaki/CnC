@@ -14,7 +14,7 @@
 							foreach ($banner_info as $banner){
 								extract($banner);				
 								echo '<li data-transition="zoomout" data-slotamount="2" data-masterspeed="1000" data-thumb="" data-saveperformance="on" data-title="Slide">
-										<img src="images/dummy.png" alt="slider" data-lazyload="admin/'.$photo.'" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+										<img src="/images/dummy.png" alt="slider" data-lazyload="admin/'.$photo.'" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
 										<!-- LAYERS -->
 										<div class="tp-caption very_large_text" data-x="center" data-hoffset="0" data-y="250" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="500" data-easing="Back.easeInOut" data-endspeed="300">WE’RE CAKENCOOKIE 
 										</div>
@@ -35,7 +35,7 @@
 			<!-- Start Welcome Part -->
 			<section id="reach-to" class="welcome-part home-icon">
 				<div class="icon-default">
-					<a href="#reach-to" class="scroll"><img src="images/scroll-arrow.png" alt=""></a>
+					<a href="#reach-to" class="scroll"><img src="/images/scroll-arrow.png" alt=""></a>
 				</div>
 				<div class="container">
 					<div class="build-title">
@@ -49,22 +49,22 @@
 							<p><a href="about.php" class="btn-black">LEARN MORE</a></p>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-							<img src="images/home1-about.jpg" alt="">
+							<img src="/images/home1-about.jpg" alt="">
 						</div>
 					</div>
 				</div>
 				<div class="float-main">
 					<div class="icon-top-left">
-						<img src="images/icon1.png" alt="">
+						<img src="/images/icon1.png" alt="">
 					</div>
 					<div class="icon-bottom-left">
-						<img src="images/icon7.png" alt="">
+						<img src="/images/icon7.png" alt="">
 					</div>
 					<div class="icon-top-right">
-						<img src="images/icon8.png" alt="">
+						<img src="/images/icon8.png" alt="">
 					</div>
 					<div class="icon-bottom-right">
-						<img src="images/icon9.png" alt="">
+						<img src="/images/icon9.png" alt="">
 					</div>
 				</div>
 			</section>
@@ -72,7 +72,7 @@
 			<!-- Start Dishes Part -->
 			<section class="dishes banner-bg invert invert-black home-icon wow fadeInDown" style="background-color:#3b2413" data-wow-duration="1000ms" data-wow-delay="300ms">
 				<div class="icon-default icon-black">
-					<img src="images/icon5.png" alt="">
+					<img src="/images/icon5.png" alt="">
 				</div>
 				<div class="container">
 					<div class="build-title">
@@ -93,7 +93,7 @@
 							extract($row);
 					?>
 						<div class="product-blog">
-							<img src="admin/images/product/<?php echo $feature_image; ?>"  alt="" class="circle-round-color ">
+							<img src="/admin/images/product/<?php echo $feature_image; ?>"  alt="" class="circle-round-color ">
 							<h6><?php echo $name .'('.$size_name.')'; ?></h6>
 							<!--<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p> -->
 							<!--<del>$ 55.00</del>--><strong class="txt-default"><?php echo number_format($rate,2); ?></strong>
@@ -108,7 +108,7 @@
 			<!-- Start Menu Part -->
 			<section class="special-menu bg-skeen home-icon wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 				<div class="icon-default icon-skeen">
-					<img src="images/icon6.png" alt="">
+					<img src="/images/icon6.png" alt="">
 				</div>
 				<div class="container">
 					<div class="build-title">
@@ -178,16 +178,16 @@
 				</div>
 				<div class="float-main">
 					<div class="icon-top-left">
-						<img src="images/icon15.png" alt="">
+						<img src="/images/icon15.png" alt="">
 					</div>
 					<div class="icon-bottom-left">
-						<img src="images/icon24.png" alt="">
+						<img src="/images/icon24.png" alt="">
 					</div>
 					<div class="icon-top-right">
-						<img src="images/icon26.png" alt="">
+						<img src="/images/icon26.png" alt="">
 					</div>
 					<div class="icon-bottom-right">
-						<img src="images/icon27.png" alt="">
+						<img src="/images/icon27.png" alt="">
 					</div>
 				</div>
 			</section>
@@ -196,7 +196,7 @@
 			<!-- Start Feature list -->
 			 <section class="food-hours home-icon wow fadeInDown" data-stellar-offset-parent="true" data-stellar-background-ratio="0.5" data-wow-duration="1000ms" data-wow-delay="300ms">
 				<div class="icon-default icon-gold">
-					<img src="images/icon19.png" alt="">
+					<img src="/images/icon19.png" alt="">
 				</div>
 				<div class="container">
 					<div class="build-title">
@@ -207,7 +207,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="feature-list-icon">
 								<div class="feature-icon-table">
-									<img src="images/img17.png" alt="">
+									<img src="/images/img17.png" alt="">
 								</div>
 							</div>
 							<h5><?php echo $dbClass->getTitle(51); ?></h5>
@@ -216,7 +216,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="feature-list-icon">
 								<div class="feature-icon-table">
-									<img src="images/img18.png" alt="">
+									<img src="/images/img18.png" alt="">
 								</div>
 							</div>
 							<h5><?php echo $dbClass->getTitle(52); ?></h5>
@@ -225,7 +225,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="feature-list-icon">
 								<div class="feature-icon-table">
-									<img src="images/img19.png" alt="">
+									<img src="/images/img19.png" alt="">
 								</div>
 							</div>
 							<h5><?php echo $dbClass->getTitle(53); ?></h5>
@@ -234,7 +234,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="feature-list-icon">
 								<div class="feature-icon-table">
-									<img src="images/img20.png" alt="">
+									<img src="/images/img20.png" alt="">
 								</div>
 							</div>
 							<h5><?php echo $dbClass->getTitle(54); ?></h5>

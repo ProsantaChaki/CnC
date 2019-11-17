@@ -28,7 +28,7 @@ if(isset($_GET['order_id']) && $_GET['order_id']!="") $order_id =  $_GET['order_
                 <!-- Start term condition -->
                 <section class="term-condition home-icon">
                     <div class="icon-default">
-                        <a href="#"><img src="images/scroll-arrow.png" alt=""></a>
+                        <a href="#"><img src="/images/scroll-arrow.png" alt=""></a>
                     </div>
                     <div class="container">
                         <div class="col-md-9 col-sm-8 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">

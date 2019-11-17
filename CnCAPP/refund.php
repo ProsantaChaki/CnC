@@ -16,7 +16,7 @@
                 <!-- Start term condition -->
                 <section class="term-condition home-icon">
                     <div class="icon-default">
-                        <a href="#"><img src="images/scroll-arrow.png" alt=""></a>
+                        <a href="#"><img src="/images/scroll-arrow.png" alt=""></a>
                     </div>
                     <div class="container">
 					    <?php		

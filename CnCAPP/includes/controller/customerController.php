@@ -132,14 +132,14 @@ if($q=="insert_custom_cake"){
 					$cc_image =time()."$file_name";				
 			}
 			chmod( "../../admin/images/custom/".$cc_image, 0775);
-			$cc_image  = "images/custom/".$cc_image;
+			$cc_image  = "/images/custom/".$cc_image;
 		}
 		else{
 			echo "3";die;
 		}
 	}
 	else{
-		$cc_image = "images/no_image.png";
+		$cc_image = "/images/no_image.png";
 	}	
 
 	$columns_value = array(

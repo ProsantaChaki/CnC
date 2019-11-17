@@ -41,7 +41,7 @@ switch ($q){
 							$photo =time()."$file_name";
 						}							
 					}
-					$photo  = "images/banner/".$photo;					
+					$photo  = "/images/banner/".$photo;
 				}
 				else{
 					echo $img_error_ln;die;
@@ -86,7 +86,7 @@ switch ($q){
 							$photo =time()."$file_name";							
 						}							
 					}
-					$photo  = "images/banner/".$photo;					
+					$photo  = "/images/banner/".$photo;
 				}
 				else {
 					echo $img_error_ln;die;

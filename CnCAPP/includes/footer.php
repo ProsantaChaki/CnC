@@ -16,10 +16,10 @@
                     </div>
                     <div class="copy-right">					
                         <div class="copyright-before">
-							<span class="small">Copyright © 2016 Cakencookie. All rights reserved.</span>
+							<span class="small">Copyright ï¿½ 2016 Cakencookie. All rights reserved.</span>
 							<span class="small">Developed By <a href="http://mbrotherssolution.com/"><b>Mbrotherssolution</b></a></span> 							
 						</div> 
-						<img style="background-color:#FFF; width:55%" src="images/logo.png" alt="">
+						<img style="background-color:#FFF; width:55%" src="/images/logo.png" alt="">
                     </div> 
                 </div>
 				
@@ -190,7 +190,7 @@
 										</div>
 									</div>
 								</form>
-								<p>By clicking on “Register Now” button you are accepting the <a href="terms.php">Terms &amp; Conditions</a></p>
+								<p>By clicking on ï¿½Register Nowï¿½ button you are accepting the <a href="terms.php">Terms &amp; Conditions</a></p>
 							</div>
 							<div class="col-md-12 col-sm-12 col-xs-12 done_registration_msg center hide" >
 								<div class="alert alert-success">
@@ -248,7 +248,7 @@
                     <div class="modal-body">
 						<div id="order-div">
 							<div class="title text-center">
-								<h3 class="text-coffee left"> <a href="index.php"><img src="images/logo.png" alt=""></a></h3>
+								<h3 class="text-coffee left"> <a href="index.php"><img src="/images/logo.png" alt=""></a></h3>
 								<h4 class="text-coffee left">Order No # <span id="ord_title_vw"></span></h4>
 							</div>
 							<div class="done_registration ">							    

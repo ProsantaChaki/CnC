@@ -31,14 +31,14 @@ switch ($q){
 						if(rename($file_tmp,$new_dir))
 							$photo =time()."$file_name";				
 					}
-					$photo  = "images/outlets/".$photo;					
+					$photo  = "/images/outlets/".$photo;
 				}
 				else {
 					echo $img_error_ln;die;
 				}			
 			}
 			else{
-				$photo  = "images/no_image.png";	
+				$photo  = "/images/no_image.png";
 			}
 			
 			$is_active = 0;
@@ -79,7 +79,7 @@ switch ($q){
 						if(rename($file_tmp,$new_dir))
 							$photo =time()."$file_name";				
 					}
-					$photo  = "images/outlets/".$photo;					
+					$photo  = "/images/outlets/".$photo;
 				}
 				else {
 					echo $img_error_ln;die;
@@ -92,7 +92,7 @@ switch ($q){
 			$prev_attachment = $dbClass->getSingleRow("select image from outlets where id=$outlets_id");
 			
 			if($photo != ""){	
-				if($prev_attachment['image'] != "" && $prev_attachment['image'] != "images/no_image.png"){
+				if($prev_attachment['image'] != "" && $prev_attachment['image'] != "/images/no_image.png"){
 					unlink("../".$prev_attachment['image']);
 				}
 				$columns_value = array(

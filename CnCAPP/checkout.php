@@ -12,7 +12,7 @@ if($is_logged_in_customer != ""){  $class= " hide"; $is_logged_in = 1;}
             <div class="main-part">
                 <section class="home-icon shop-cart bg-skeen">
                     <div class="icon-default icon-skeen">
-                        <img src="images/scroll-arrow.png" alt="">
+                        <img src="/images/scroll-arrow.png" alt="">
                     </div>
                     <div class="container">
                         <div class="checkout-wrap wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">

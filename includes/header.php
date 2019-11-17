@@ -40,23 +40,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cakencookie</title>
-    <link href="plugin/bootstrap/bootstrap.css" rel="stylesheet">
-    <link href="plugin/bootstrap/datepicker.css" rel="stylesheet">
-    <link href="plugin/font-awesome/font-awesome.css" rel="stylesheet">
-    <link href="plugin/form-field/jquery.formstyler.css" rel="stylesheet">
-    <link href="plugin/revolution-plugin/extralayers.css" rel="stylesheet">
-    <link href="plugin/revolution-plugin/settings.css" rel="stylesheet">
-    <link href="plugin/owl-carousel/owl.carousel.css" rel="stylesheet">
-    <link href="plugin/owl-carousel/owl.theme.default.css" rel="stylesheet">
-    <link href="plugin/slick-slider/slick-theme.css" rel="stylesheet">
-    <link href="plugin/magnific/magnific-popup.css" rel="stylesheet">
-    <link href="plugin/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet">
-    <link href="plugin/animation/animate.min.css" rel="stylesheet">
-    <link href="css/theme.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-	<link href="css/colordefault.css" rel="stylesheet">
-	<link href="css/elements.css" rel="stylesheet">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link href="/plugin/bootstrap/bootstrap.css" rel="stylesheet">
+    <link href="/plugin/bootstrap/datepicker.css" rel="stylesheet">
+    <link href="/plugin/font-awesome/font-awesome.css" rel="stylesheet">
+    <link href="/plugin/form-field/jquery.formstyler.css" rel="stylesheet">
+    <link href="/plugin/revolution-plugin/extralayers.css" rel="stylesheet">
+    <link href="/plugin/revolution-plugin/settings.css" rel="stylesheet">
+    <link href="/plugin/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="/plugin/owl-carousel/owl.theme.default.css" rel="stylesheet">
+    <link href="/plugin/slick-slider/slick-theme.css" rel="stylesheet">
+    <link href="/plugin/magnific/magnific-popup.css" rel="stylesheet">
+    <link href="/plugin/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet">
+    <link href="/plugin/animation/animate.min.css" rel="stylesheet">
+    <link href="/css/theme.css" rel="stylesheet">
+    <link href="/css/responsive.css" rel="stylesheet">
+	<link href="/css/colordefault.css" rel="stylesheet">
+	<link href="/css/elements.css" rel="stylesheet">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -64,7 +64,7 @@
     <div id="pre-loader">
         <div class="loader-holder">
             <div class="frame">
-                <img src="images/Preloader.gif" alt="Cakencookie" />
+                <img src="/images/Preloader.gif" alt="Cakencookie" />
             </div>
         </div>
     </div>
@@ -76,7 +76,7 @@
                     <div class="container">
                         <div class="header-top-inner">
                             <div class="header-top-left">
-                                <a href="tel:<?php echo $mobile_info; ?>" class="top-cell"><img src="images/fon.png" alt=""> <span>	<?php echo $mobile_info; ?></span></a>
+                                <a href="tel:<?php echo $mobile_info; ?>" class="top-cell"><img src="/images/fon.png" alt=""> <span>	<?php echo $mobile_info; ?></span></a>
                                 <a href="mailto:<?php echo $email_info; ?>" class="top-email"><span><?php echo $email_info; ?></span></a>
                             </div>				
                             <div class="header-top-right">
@@ -106,10 +106,10 @@
                         <div class="header-info">
                             <div class="header-info-inner">
                                 <div class="book-table header-collect book-md">
-                                    <a href="#" data-toggle="modal" data-target="#booktable" id="c_cake_modal_open_btn"><img src="images/custom_cake.png" width="30" alt="">Custom Cake</a>
+                                    <a href="#" data-toggle="modal" data-target="#booktable" id="c_cake_modal_open_btn"><img src="/images/custom_cake.png" width="30" alt="">Custom Cake</a>
                                 </div>
                                 <div class="shop-cart header-collect">
-                                    <a href="cart.php"><img src="images/icon-basket.png" alt=""><span id="total_product_in_cart"></span> items</a>
+                                    <a href="cart.php"><img src="/images/icon-basket.png" alt=""><span id="total_product_in_cart"></span> items</a>
                                     <div class="cart-wrap">
                                         <div class="cart-blog" id="cart_div" >
                                         </div>
@@ -156,7 +156,7 @@
                             </ul>
                         </div>
                         <div class="logo">
-                            <a href="index.php"><img src="images/logo.png" alt="" ></a>
+                            <a href="index.php"><img src="/images/logo.png" alt="" ></a>
                         </div>
                     </div>
                 </div>

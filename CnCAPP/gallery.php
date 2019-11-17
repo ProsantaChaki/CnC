@@ -16,7 +16,7 @@
 			 -->
 			<section class="home-icon">
 				<div class="icon-default">
-					<img src="images/scroll-arrow.png" alt="">
+					<img src="/images/scroll-arrow.png" alt="">
 				</div>
 				<div class="container">
 					<div class="gallery-royal">

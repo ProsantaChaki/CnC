@@ -73,7 +73,7 @@
 								if(empty($attachment_info['attachment'])) 
 									$attach_html = 
 										'<div class="project-slide">
-											<img src="images/default.jpg" alt="" />
+											<img src="/images/default.jpg" alt="" />
 										</div>';
 								echo $attach_html;		
 							?>
@@ -97,7 +97,7 @@
 						$attachment_array = explode(",",$attachment);
 						$attach_project_html =	'<img src="../web_project/admin/document/project_attachment/'.$attachment_array[0].'"';						
 						if(empty($attachment)) 
-							$attach_project_html = 	'<img src="images/default.jpg" alt="" />';
+							$attach_project_html = 	'<img src="/images/default.jpg" alt="" />';
 						$project_html .=
 						'<div class="default-gallery-item col-md-3 col-sm-6 col-xs-12">
 							<div class="inner-box">

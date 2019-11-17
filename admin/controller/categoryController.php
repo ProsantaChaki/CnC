@@ -34,14 +34,14 @@ switch ($q){
 						if(rename($file_tmp,$new_dir))
 							$photo =time()."$file_name";				
 					}
-					$photo  = "images/category/".$photo;					
+					$photo  = "/images/category/".$photo;
 				}
 				else {
 					echo $img_error_ln;die;
 				}			
 			}
 			else{
-				$photo  = "images/no_image.png";	
+				$photo  = "/images/no_image.png";
 			}
 			
 			$columns_value = array(
@@ -78,7 +78,7 @@ switch ($q){
 						if(rename($file_tmp,$new_dir))
 							$photo =time()."$file_name";				
 					}
-					$photo  = "images/category/".$photo;					
+					$photo  = "/images/category/".$photo;
 				}
 				else {
 					echo $img_error_ln;die;
@@ -91,7 +91,7 @@ switch ($q){
 			$prev_attachment = $dbClass->getSingleRow("select photo from category where id = $category_id");
 			
 			if($photo != ""){	
-				if($prev_attachment['photo'] != "" && $prev_attachment['photo'] != "images/no_image.png"){
+				if($prev_attachment['photo'] != "" && $prev_attachment['photo'] != "/images/no_image.png"){
 					unlink("../".$prev_attachment['photo']);
 				}
 				$columns_value = array(

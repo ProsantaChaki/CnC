@@ -15,7 +15,7 @@
                  -->
                 <section class="home-icon blog-main-section shop-page">
                     <div class="icon-default">
-                        <img src="images/scroll-arrow.png" alt="">
+                        <img src="/images/scroll-arrow.png" alt="">
                     </div>
                     <div class="container">
                         <div class="portfolioFilter category">

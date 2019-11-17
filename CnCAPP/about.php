@@ -16,7 +16,7 @@
                 <!-- Start term condition -->
                 <section class="term-condition home-icon">
                     <div class="icon-default">
-                        <a href="#"><img src="images/scroll-arrow.png" alt=""></a>
+                        <a href="#"><img src="/images/scroll-arrow.png" alt=""></a>
                     </div>
                     <div class="container">
 					    <?php
@@ -71,7 +71,7 @@
 												<div class="service-track-info">
 													<img src="admin/<?php echo $image; ?>" alt="">
 												</div>
-												<div class="service-track-overlay banner-bg" data-background="images/hover-img1.png">      
+												<div class="service-track-overlay banner-bg" data-background="/images/hover-img1.png">
 													<h5><?php echo $outlet_name; ?></h5>
 													<span><?php echo $address; ?></span>
 												</div>
@@ -89,7 +89,7 @@
 				</section>
 				<section class="chef-part home-icon home-small-pad wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="icon-default">
-                        <img src="images/icon11.png" alt="">
+                        <img src="/images/icon11.png" alt="">
                     </div>
                     <div class="container">
                         <div class="build-title">
@@ -99,10 +99,10 @@
 						<div class="service-port odd wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 							<div class="row">
 								<div class="col-md-6 col-sm-6 col-xs-12">
-										<img src="images/team1.jpg" alt="" class="round-color border-1px">
+										<img src="/images/team1.jpg" alt="" class="round-color border-1px">
 								</div>
 								<div class="col-md-6 col-sm-6 col-xs-12">
-										<img src="images/team2.jpg" alt="" class="round-color border-1px">
+										<img src="/images/team2.jpg" alt="" class="round-color border-1px">
 								</div>
 							</div>
 						</div>

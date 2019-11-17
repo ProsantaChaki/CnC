@@ -15,7 +15,7 @@
                 -->
                  <section class="home-icon blog-main-section blog-list-outer">
                     <div class="icon-default">
-                        <img src="images/scroll-arrow.png" alt="">
+                        <img src="/images/scroll-arrow.png" alt="">
                     </div>
                     <div class="container">
                         <div class="row">                           

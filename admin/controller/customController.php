@@ -49,7 +49,7 @@ switch ($q){
 						if(rename($file_tmp,$new_dir))
 							$photo =time()."$file_name";				
 					}
-					$photo  = "images/custom/".$photo;					
+					$photo  = "/images/custom/".$photo;
 				}
 				else {
 					echo $img_error_ln;die;

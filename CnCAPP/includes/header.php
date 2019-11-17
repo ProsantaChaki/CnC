@@ -56,7 +56,7 @@
     <link href="css/responsive.css" rel="stylesheet">
 	<link href="css/colordefault.css" rel="stylesheet">
 	<link href="css/elements.css" rel="stylesheet">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -64,7 +64,7 @@
     <div id="pre-loader">
         <div class="loader-holder">
             <div class="frame">
-                <img src="images/Preloader.gif" alt="Cakencookie" />
+                <img src="/images/Preloader.gif" alt="Cakencookie" />
             </div>
         </div>
     </div>
@@ -76,7 +76,7 @@
                     <div class="container">
                         <div class="header-top-inner">
                             <div class="header-top-left">
-                                <a href="#" class="top-cell"><img src="images/fon.png" alt=""> <span><?php echo $mobile_info; ?></span></a>
+                                <a href="#" class="top-cell"><img src="/images/fon.png" alt=""> <span><?php echo $mobile_info; ?></span></a>
                                 <a href="#" class="top-email"><span><?php echo $email_info; ?></span></a>
                             </div>				
                             <div class="header-top-right">
@@ -106,10 +106,10 @@
                         <!--<div class="header-info">
                             <div class="header-info-inner">
                                 <div class="book-table header-collect book-md">
-                                    <a href="#" data-toggle="modal" data-target="#booktable"><img src="images/custom_cake.png" width="30" alt="">Custom Cake</a>
+                                    <a href="#" data-toggle="modal" data-target="#booktable"><img src="/images/custom_cake.png" width="30" alt="">Custom Cake</a>
                                 </div>
                                 <div class="shop-cart header-collect">
-                                    <a href="#"><img src="images/icon-basket.png" alt=""><span id="total_product_in_cart"></span> items</a>
+                                    <a href="#"><img src="/images/icon-basket.png" alt=""><span id="total_product_in_cart"></span> items</a>
                                     <div class="cart-wrap">
                                         <div class="cart-blog" id="cart_div" >
                                         </div>
@@ -165,7 +165,7 @@
                             </ul>
                         </div>
                         <div class="">
-                            <a href="index.php"><img src="images/logo.png" alt="" style="width:60%; background-color:#FFF"></a>
+                            <a href="index.php"><img src="/images/logo.png" alt="" style="width:60%; background-color:#FFF"></a>
 							<div class="search-part" style="display: inline-block;">
 								<a href="#"></a>
 								<div class="search-box">

@@ -3,7 +3,7 @@
 		
             <div class="footer-part wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                 <div class="icon-default icon-dark">
-                    <img src="images/logo.png" alt="" style="background-color:#FFF" >					
+                    <img src="/images/logo.png" alt="" style="background-color:#FFF" >
                 </div>
 				<div class="col-md-12 center">
 					<div class="social-round">
@@ -260,7 +260,7 @@
                     <div class="modal-body">
 						<div id="order-div">
 							<div class="title text-center">
-								<h3 class="text-coffee left"> <a href="index.php"><img src="images/logo.png" alt=""></a></h3>
+								<h3 class="text-coffee left"> <a href="index.php"><img src="/images/logo.png" alt=""></a></h3>
 								<h4 class="text-coffee left">Order No # <span id="ord_title_vw"></span></h4>
 							</div>
 							<div class="done_registration ">							    
@@ -312,28 +312,28 @@
     </div>
     <!-- Back To Top Arrow -->
     <a href="#" class="top-arrow"></a>
-    <script src="js/jquery.min.js"></script>
-    <script src="plugin/bootstrap/bootstrap.min.js"></script>
-    <script src="plugin/bootstrap/bootstrap-datepicker.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/plugin/bootstrap/bootstrap.min.js"></script>
+    <script src="/plugin/bootstrap/bootstrap-datepicker.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf6My1Jfdi1Fmj-DUmX_CcNOZ6FLkQ4Os"></script>
-    <script src="plugin/form-field/jquery.formstyler.min.js"></script>
-    <script src="plugin/revolution-plugin/jquery.themepunch.plugins.min.js"></script>
-    <script src="plugin/revolution-plugin/jquery.themepunch.revolution.min.js"></script>
-    <script src="plugin/owl-carousel/owl.carousel.min.js"></script>
-    <script src="plugin/slick-slider/slick.min.js"></script>
-    <script src="plugin/isotop/isotop.js"></script>
-    <script src="plugin/isotop/packery-mode.pkgd.min.js"></script>
-    <script src="plugin/magnific/jquery.magnific-popup.min.js"></script>
-    <script src="plugin/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="plugin/animation/wow.min.js"></script>
-    <script src="plugin/parallax/jquery.stellar.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/script.js"></script>
+    <script src="/plugin/form-field/jquery.formstyler.min.js"></script>
+    <script src="/plugin/revolution-plugin/jquery.themepunch.plugins.min.js"></script>
+    <script src="/plugin/revolution-plugin/jquery.themepunch.revolution.min.js"></script>
+    <script src="/plugin/owl-carousel/owl.carousel.min.js"></script>
+    <script src="/plugin/slick-slider/slick.min.js"></script>
+    <script src="/plugin/isotop/isotop.js"></script>
+    <script src="/plugin/isotop/packery-mode.pkgd.min.js"></script>
+    <script src="/plugin/magnific/jquery.magnific-popup.min.js"></script>
+    <script src="/plugin/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="/plugin/animation/wow.min.js"></script>
+    <script src="/plugin/parallax/jquery.stellar.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/script.js"></script>
 	
 	
 	<!-- daterangepicker     -->
-<script type="text/javascript" src="admin/theme/js/moment/moment.min.js"></script>
-<script type="text/javascript" src="admin/theme/js/datepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="/admin/theme/js/moment/moment.min.js"></script>
+<script type="text/javascript" src="/admin/theme/js/datepicker/daterangepicker.js"></script>
 </body>
 
 <script>
@@ -584,7 +584,7 @@ function showCart(){
 				var count =0
 				$.each(data.records, function(i,datas){ 
 					sub_total += parseFloat(datas.discounted_rate)*(datas.quantity);
-					html += '<div class="cart-item"><div class="cart-item-left"><img src="admin/images/product/'+datas.product_image+'" alt=""></div><div class="cart-item-right"><h6>'+datas.product_name+'</h6><span> '+datas.discounted_rate+' * '+datas.quantity+' = '+sub_total+'</span></div><span class="delete-icon" onclick="deleteProduct('+"'"+datas.cart_key+"'"+')"></span></div>';
+					html += '<div class="cart-item"><div class="cart-item-left"><img src="/admin/images/product/'+datas.product_image+'" alt=""></div><div class="cart-item-right"><h6>'+datas.product_name+'</h6><span> '+datas.discounted_rate+' * '+datas.quantity+' = '+sub_total+'</span></div><span class="delete-icon" onclick="deleteProduct('+"'"+datas.cart_key+"'"+')"></span></div>';
 					count++;
 					total += sub_total ; 
 				});
@@ -623,7 +623,7 @@ function deleteProduct(cart_key){
 				var count =0
 				$.each(data.records, function(i,datas){ 
 					sub_total += parseFloat(datas.discounted_rate)*(datas.quantity);
-					html += '<div class="cart-item"><div class="cart-item-left"><img src="admin/images/product/'+datas.product_image+'" alt=""></div><div class="cart-item-right"><h6>'+datas.product_name+'</h6><span> '+datas.discounted_rate+' * '+datas.quantity+' = '+sub_total+'</span></div><span class="delete-icon" onclick="deleteProduct('+"'"+datas.cart_key+"'"+')"></span></div>';
+					html += '<div class="cart-item"><div class="cart-item-left"><img src="/admin/images/product/'+datas.product_image+'" alt=""></div><div class="cart-item-right"><h6>'+datas.product_name+'</h6><span> '+datas.discounted_rate+' * '+datas.quantity+' = '+sub_total+'</span></div><span class="delete-icon" onclick="deleteProduct('+"'"+datas.cart_key+"'"+')"></span></div>';
 					count++;
 					total += sub_total ; 
 				});
