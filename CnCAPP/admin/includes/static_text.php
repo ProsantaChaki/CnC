@@ -1,7 +1,7 @@
 <?php
 
 // define some global variable
-$activity_url  = "http://restaurent.test/CnC/admin/";
+$activity_url  = "http://restaurent.test/admin/";
 
 $emp_pic_directory = "images/employee/";
 

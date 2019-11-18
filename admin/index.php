@@ -1,5 +1,6 @@
 <?php session_start();
 include 'includes/static_text.php';
+//echo $activity_url; die;
 if(!isset($_SESSION['user_id'])){ ob_start(); header("Location:".$activity_url."login.php"); exit();}
 else if($_SESSION['user_id'] == ""){ ob_start(); header("Location:".$activity_url."login.php"); exit();}
 else if(!isset($_REQUEST['view'])){ob_start(); header("Location:".$activity_url."index.php?module=dashboard&view=dashboard"); exit();}
@@ -43,7 +44,7 @@ else{
 	<link rel="icon" href="images/favicon.png" type="image/x-icon">
 	<script src="theme/js/jquery.min.js"></script>
     <script src="js/static_text.js"></script>
-    <script src="js/common.js"></script> 
+    <script src="js/common.js"></script>
 </head>
 <body class="nav-md">
     <div class="container body">

@@ -1,14 +1,16 @@
 <?php
 session_start();
+//echo 'ok'; die;
 include '../../includes/static_text.php';
 include("../../dbConnect.php");
 include("../../dbClass.php");
 $dbClass = new dbClass;
 $user_type = $_SESSION['user_type'];
+//echo $activity_url; die;
 
 if(!isset($_SESSION['user_id']) && $_SESSION['user_id'] == "") header("Location:".$activity_url."../view/login.php");
 else if($dbClass->getUserGroupPermission(15) != 1){
-?> 
+?>
 	<div class="x_panel">
 		<div class="alert alert-danger" align="center">You Don't Have permission of this Page.</div>
 	</div>
@@ -227,7 +229,7 @@ else{
 		}
 	} 
 ?>
-<script src="js/customTable.js"></script> 
+<script src="js/customTable.js"></script>
 <script>
 //------------------------------------- general & UI  --------------------------------------
 /*
@@ -235,7 +237,9 @@ develped by @momit
 =>load grid with paging
 =>search records
 */
-$(document).ready(function () {	
+
+
+$(document).ready(function () {
 	var user_type = "<?php echo $user_type; ?>";
 	// close form submit section onload page
 	var x_panel = $('#iniial_collapse').closest('div.x_panel');
@@ -249,7 +253,6 @@ $(document).ready(function () {
 		x_panel.resize();
 	}, 50);
 
-
 	// collaps button function
 	$('.collapse-link').click(function () {
 		var x_panel = $(this).closest('div.x_panel');
@@ -262,8 +265,8 @@ $(document).ready(function () {
 		setTimeout(function () {
 			x_panel.resize();
 		}, 50);
-	})	
-	
+	})
+
 	// close form submit section onload page
 	var x_panel = $('#iniial_collapse_adv').closest('div.x_panel');
 	var button = $('#iniial_collapse').find('i');
@@ -274,8 +277,8 @@ $(document).ready(function () {
 	button.toggleClass('fa-chevron-up').toggleClass('fa-chevron-down');
 	setTimeout(function () {
 		x_panel.resize();
-	}, 50); 
-	
+	}, 50);
+
 	// collaps button function
 	$('.collapse-link-adv').click(function (){
 		var x_panel = $(this).closest('div.x_panel');
@@ -288,7 +291,7 @@ $(document).ready(function () {
 		setTimeout(function () {
 			x_panel.resize();
 		}, 50);
-	}) 
+	})
 
 	//datepicker
 	$('.date-picker').daterangepicker({
@@ -299,20 +302,20 @@ $(document).ready(function () {
 			  separator: " - ",
 		}
 	});
-	
+
 	// icheck for the inputs
 	$('#emp_form').iCheck({
 		checkboxClass: 'icheckbox_flat-green',
 		radioClass: 'iradio_flat-green'
-	});	
-	
+	});
+
 	$('.flat_radio').iCheck({
 		//checkboxClass: 'icheckbox_flat-green'
 		radioClass: 'iradio_flat-green'
 	});
 
 });
-<!-- ------------------------------------------end --------------------------------------->
+//<!-- ------------------------------------------end --------------------------------------->
 
 
 //------------------------------------- grid table codes --------------------------------------
@@ -321,18 +324,18 @@ develped by @momit
 =>load grid with paging
 =>search records
 */
-$(document).ready(function (){	
+$(document).ready(function (){
 	// initialize page no to "1" for paging
-	var current_page_no=1;	
+    var current_page_no=1;
 	$('.adv_cl').hide();
 	load_data = function load_data(search_txt){
 		$("#search_emp_button").toggleClass('active');		 
 		var emp_Table_length =parseInt($('#emp_Table_length').val());
-		
-		var emp_active_status = $("input[name=is_active_status]:checked").val();
+        var emp_active_status = $("input[name=is_active_status]:checked").val();
 		var health_card_status = $("input[name=health_card_status]:checked").val();
-		
-		$.ajax({
+        //alert (project_url);
+
+        $.ajax({
 			url: project_url+"controller/userController.php",
 			dataType: "json",
 			type: "post",
@@ -346,7 +349,9 @@ $(document).ready(function (){
 				page_no:current_page_no
 			},
 			success: function(data){
-				var todate = "<?php echo date("Y-m-d"); ?>";
+                alert('got data');
+
+                var todate = "<?php echo date("Y-m-d"); ?>";
 				var user_name =  "<?php echo $user_name; ?>";
 				var html = "";
 				if($.trim(search_txt) == "Print"){
@@ -410,10 +415,12 @@ $(document).ready(function (){
 					$("#search_emp_button").toggleClass('active');					
 				}			
 			}
-		});	
-	}
-	
+		});
+
+        //alert('url');
+    }
 	load_user_groups = function load_user_groups(){
+        alert (project_url);
 		$.ajax({
 			url: project_url+"controller/userController.php",
 			dataType: "json",
@@ -498,10 +505,10 @@ $(document).ready(function (){
 });
 
 
-<!-- ------------------------------------------end --------------------------------------->
+//<!-- ------------------------------------------end --------------------------------------->
 
 
-<!-- -------------------------------Form related functions ------------------------------->
+//<!-- -------------------------------Form related functions ------------------------------->
 
 /*
 develped by @momit
@@ -710,5 +717,5 @@ $(document).ready(function () {
 });
 
 
-<!-- ------------------------------------------end --------------------------------------->
+//<!-- ------------------------------------------end --------------------------------------->
 </script>
